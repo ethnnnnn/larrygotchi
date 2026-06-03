@@ -28,8 +28,6 @@ plz bear in mind if youre considering in any way using this code that this is ve
 
 **credit where its due to jay and company for making such awesome code and to me for ruining it**
 
-# Pwnagotchi
-This is the main source for all forks:
 - RPiZeroW (32bit)
 - RPiZero2W, RPi3, RPi4, RPi5 (64bit)
 
