@@ -268,7 +268,6 @@ def setup_logging(args, config):
         requests_log.addHandler(logging.NullHandler())
         requests_log.prpagate = False
 
-    logging.info("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Pwnagotchi Re|Started -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 
 
 

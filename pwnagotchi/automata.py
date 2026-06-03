@@ -1,7 +1,8 @@
 import logging
 
 import pwnagotchi.plugins as plugins
-from pwnagotchi.epoch import Epoch
+from pwnagotchi.ai.epoch import Epoch
+import os
 
 
 # basic mood system
