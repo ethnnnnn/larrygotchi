@@ -2,6 +2,8 @@
 
 ![Larry the Cat, aka Evil Larry, Destroyer of Worlds](https://cdn3.emoji.gg/emojis/21098-larry-evil.png)
 
+*depicted: Larry the Cat, aka "Scary Larry," aka Evil Larry, Destroyer of Worlds*
+
 ## Intro (by me)
 
 **this is my custom/modded setup source code, for quick access**
