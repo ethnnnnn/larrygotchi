@@ -1,4 +1,4 @@
-main.name = "pwnagotchi"
+main.name = "larry"
 main.lang = "en"
 main.whitelist = [
     "EXAMPLE_NETWORK",
@@ -104,8 +104,8 @@ main.log.rotation.enabled = true
 main.log.rotation.size = "10M"
 
 personality.advertise = true
-personality.deauth = true
-personality.associate = true
+personality.deauth = false
+personality.associate = false
 personality.channels = []
 personality.min_rssi = -200
 personality.ap_ttl = 120
@@ -124,37 +124,37 @@ personality.bond_encounters_factor = 20000
 personality.throttle_a = 0.4
 personality.throttle_d = 0.9
 
-ui.invert = false # false = black background, true = white background
-ui.cursor = true
-ui.fps = 0.0
+ui.invert = true # false = black background, true = white background
+ui.cursor = false
+ui.fps = 1.0
 ui.font.name = "DejaVuSansMono" # for japanese: fonts-japanese-gothic
 ui.font.size_offset = 0 # will be added to the font size
 
-ui.faces.look_r = "( ⚆_⚆)"
-ui.faces.look_l = "(☉_☉ )"
-ui.faces.look_r_happy = "( ◕‿◕)"
-ui.faces.look_l_happy = "(◕‿◕ )"
-ui.faces.sleep = "(⇀‿‿↼)"
-ui.faces.sleep2 = "(≖‿‿≖)"
-ui.faces.awake = "(◕‿‿◕)"
-ui.faces.bored = "(-__-)"
-ui.faces.intense = "(°▃▃°)"
-ui.faces.cool = "(⌐■_■)"
-ui.faces.happy = "(•‿‿•)"
-ui.faces.excited = "(ᵔ◡◡ᵔ)"
-ui.faces.grateful = "(^‿‿^)"
-ui.faces.motivated = "(☼‿‿☼)"
-ui.faces.demotivated = "(≖__≖)"
-ui.faces.smart = "(✜‿‿✜)"
-ui.faces.lonely = "(ب__ب)"
-ui.faces.sad = "(╥☁╥ )"
-ui.faces.angry = "(-_-')"
-ui.faces.friend = "(♥‿‿♥)"
-ui.faces.broken = "(☓‿‿☓)"
-ui.faces.debug = "(#__#)"
-ui.faces.upload = "(1__0)"
-ui.faces.upload1 = "(1__1)"
-ui.faces.upload2 = "(0__1)"
+ui.faces.look_r = "{=⚆-⚆}"
+ui.faces.look_l = "{☉-☉=}"
+ui.faces.look_r_happy = "{=◕w◕}"
+ui.faces.look_l_happy = "{◕w◕=}"
+ui.faces.sleep = "{^~.~^}"
+ui.faces.sleep2 = "{^-.-^}"
+ui.faces.awake = "{=◕-◕=}"
+ui.faces.bored = "{^-_-^}"
+ui.faces.intense = "{=0▃0=}"
+ui.faces.cool = "{^■.■}"
+ui.faces.happy = "{^UwU^}"
+ui.faces.excited = "{=OwO=}"
+ui.faces.grateful = "{=uWu=}"
+ui.faces.motivated = "{^☼.☼^}"
+ui.faces.demotivated = "{='~'=}"
+ui.faces.smart = "{^✜w✜^}"
+ui.faces.lonely = "{^ب_ب}"
+ui.faces.sad = "{╥☁╥^}"
+ui.faces.angry = "{.\/.}"
+ui.faces.friend = "{=♥w♥=}"
+ui.faces.broken = "{=☓~☓=}"
+ui.faces.debug = "{^#~#^}"
+ui.faces.upload = "{=1_0}"
+ui.faces.upload1 = "{=1_1=}"
+ui.faces.upload2 = "{0_1=}"
 ui.faces.png = false
 ui.faces.position_x = 0
 ui.faces.position_y = 34
